@@ -13,6 +13,6 @@ onEvent('item.registry', (event) => {
         event.create(id, 'sword').tier('tool').texture("kubejs:item/" + id).displayName(name).rarity(RARITY_COMMON)
     }
 tool('Screwdriver')
-tool('Hammer'
+tool('Hammer')
 
 }
