@@ -1,1 +1,1 @@
-
+Platform.mods.kubejs.name = 'Lead Poisoning'
