@@ -7,11 +7,11 @@ onEvent('item.registry', (event) => {
 
     }
 
-mechanism('Wooden')
-mechanism('Flint')
-mechanism('Andesite')
-mechanism('Brass')
-mechanism('Steel')
-mechanism('HDPE')
-mechanism('Tungsten')
+mechanism('Wooden') // Tier 1
+mechanism('Flint') // Tier 2
+mechanism('Andesite') // Tier 3
+mechanism('Brass') // Tier 4
+mechanism('Steel') // Tier 5
+mechanism('HDPE') // Tier 6
+mechanism('Tungsten') // Tier 7
 }
