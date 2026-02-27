@@ -6,4 +6,5 @@ ServerEvents.recipes(event => {
     'SSS'
   ], {
 	S: 'kubejs:sap'
-  })
+  }
+})

@@ -10,4 +10,5 @@ ServerEvents.recipes(event => {
     B: 'create:brass_sheet'
     A: 'kubejs:andesite_mechanism'
     E: 'create:electron_tube'
-  })
+  }
+ })

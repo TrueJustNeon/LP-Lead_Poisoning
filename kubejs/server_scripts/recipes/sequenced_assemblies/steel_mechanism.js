@@ -11,6 +11,6 @@ ServerEvents.recipes(event => {
     event.recipes.createDeploying(t, [t, 'kubejs:screwdriver']),
     event.recipes.createDeploying(t, [t, 'create:electron_tube']),
     event.recipes.createDeploying(t, [t, 'create_tank_defenses:steel_sheet'])
-  ]).transitionalItem(t).loops(1)
+  ]).transitionalItem(t).loops(2)
   
 })

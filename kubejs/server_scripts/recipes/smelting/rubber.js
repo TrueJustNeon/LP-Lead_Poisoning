@@ -1,3 +1,3 @@
 ServerEvents.recipes(event => {
-event.smelting('kubejs:latex', 'kubejs:rubber')
+event.smelting('kubejs:rubber', 'kubejs:latex')
 })
