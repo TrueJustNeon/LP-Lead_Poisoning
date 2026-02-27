@@ -1,4 +1,4 @@
-onEvent('recipes', event => {
+ServerEvents.recipes(event => {
   event.shaped('kubejs:hammer', [
     'III',
     'III',

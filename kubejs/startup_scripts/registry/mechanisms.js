@@ -1,4 +1,4 @@
-onEvent('item.registry', (event) => {
+StartupEvents.registry('item', event => {
 
     let mechanism = (name, rarity) => {
         let id = name.toLowerCase()
@@ -14,4 +14,5 @@ mechanism('Brass') // Tier 4
 mechanism('Steel') // Tier 5
 mechanism('HDPE') // Tier 6
 mechanism('Tungsten') // Tier 7
-}
+
+})

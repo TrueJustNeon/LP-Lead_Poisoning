@@ -1,0 +1,21 @@
+{
+  "default_packs": [
+    "file/flintlocks.zip",
+    "file/musketswildwest.zip",
+    "file/purity.zip"
+  ],
+  "pack_overrides": {
+    "file/flintlocks.zip": {
+      "required": true,
+      "fixed_position": true
+    },
+    "file/purity.zip": {
+      "required": true,
+      "fixed_position": true
+    },
+    "file/musketswildwest.zip": {
+      "required": true,
+      "fixed_position": true
+    }
+  }
+}

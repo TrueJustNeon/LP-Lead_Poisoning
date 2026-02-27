@@ -1,5 +1,5 @@
 // For items.
-onEvent('recipes', event => {
+ServerEvents.recipes(event => {
   event.shaped('kubejs:latex', [
     'SSS',
     'SSS',

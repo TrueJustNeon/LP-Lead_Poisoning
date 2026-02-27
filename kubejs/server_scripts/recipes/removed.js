@@ -1,4 +1,4 @@
-onEvent('recipes', event => {
+ServerEvents.recipes(event => {
 	// Sequenced
 	    event.remove({id: 'create:sequenced_assembly/precision_mechanism'})
 	// Mixing

@@ -1,5 +1,5 @@
 // Assembly, smithing, etc goes here.
-onEvent('recipes', event => {
+ServerEvents.recipes(event => {
   event.shaped('create:precision_mechanism', [
     'HBS',
     'EAE',

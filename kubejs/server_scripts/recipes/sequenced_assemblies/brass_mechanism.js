@@ -2,7 +2,7 @@ let MOD = (domain, id, x) => (x ? `${x}x ` : "") + (id.startsWith('#') ? '#' : "
 let KJ = (id, x) => MOD("kubejs", id, x)
 let CR = (id, x) => MOD("create", id, x)
 
-onEvent('recipes', event => {
+ServerEvents.recipes(event => {
   t = CR('incomplete_precision_mechanism')
  event.recipes.createSequencedAssembly([
     'create:precision_mechanism',
