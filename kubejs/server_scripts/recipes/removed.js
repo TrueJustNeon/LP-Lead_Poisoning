@@ -8,6 +8,8 @@ onEvent('recipes', event => {
 	 //   event.remove({id: 'create:crafting/materials/andesite_alloy'})
 	 //  event.remove({id: 'create:crafting/materials/andesite_alloy_from_zinc'})
 	    event.remove({id: 'create:crafting/kinetics/brass_hand'})
+	    event.remove({id: 'create:crafting/kinetics/belt_connector'})
+	    event.remove({id: 'create:crafting/kinetics/deployer'})
 	// Smelting
 	// Cooking
 	// Campfire
