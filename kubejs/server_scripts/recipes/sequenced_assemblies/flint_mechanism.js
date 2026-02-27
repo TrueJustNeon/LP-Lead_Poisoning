@@ -4,10 +4,10 @@ let CR = (id, x) => MOD("create", id, x)
 let MC = (id, x) => MOD("minecraft", id, x)
 
 ServerEvents.recipes(event => {
-  t = KS('incomplete_flint_mechanism')
+  t = KJ('incomplete_flint_mechanism')
  event.recipes.createSequencedAssembly([
     'kubejs:flint_mechanism', // Output
-  ], KS('wooden_mechanism'), [
+  ], KJ('wooden_mechanism'), [
     event.recipes.createDeploying(t, [t, 'minecraft:iron_nugget']),
     event.recipes.createDeploying(t, [t, 'minecraft:flint'])
     event.recipes.createDeploying(t, [t, 'minecraft:flint'])

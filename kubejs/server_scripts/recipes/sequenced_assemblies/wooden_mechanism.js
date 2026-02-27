@@ -4,7 +4,7 @@ let CR = (id, x) => MOD("create", id, x)
 let MC = (id, x) => MOD("minecraft", id, x)
 
 ServerEvents.recipes(event => {
-  t = KS('incomplete_wooden_mechanism')
+  t = KJ('incomplete_wooden_mechanism')
  event.recipes.createSequencedAssembly([
     'kubejs:wooden_mechanism', // Output
   ], MC('spruce_slab'), [
