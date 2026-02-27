@@ -11,5 +11,6 @@ ServerEvents.recipes(event => {
     event.recipes.createDeploying(t, [t, 'minecraft:iron_ingot']),
     event.recipes.createDeploying(t, [t, 'minecraft:string'])
     event.recipes.createDeploying(t, [t, 'minecraft:string'])
+	event.recipes.create.cutting(t, t)
   ]).transitionalItem(t).loops(2)
 })
