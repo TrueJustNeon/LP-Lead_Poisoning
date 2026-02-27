@@ -9,8 +9,8 @@ ServerEvents.recipes(event => {
     'kubejs:flint_mechanism', // Output
   ], KJ('wooden_mechanism'), [
     event.recipes.createDeploying(t, [t, 'minecraft:iron_nugget']),
-    event.recipes.createDeploying(t, [t, 'minecraft:flint'])
-    event.recipes.createDeploying(t, [t, 'minecraft:flint'])
+    event.recipes.createDeploying(t, [t, 'minecraft:flint']),
+    event.recipes.createDeploying(t, [t, 'minecraft:flint']),
     event.recipes.createDeploying(t, [t, 'kubejs:screwdriver'])
   ]).transitionalItem(t).loops(2)
 })

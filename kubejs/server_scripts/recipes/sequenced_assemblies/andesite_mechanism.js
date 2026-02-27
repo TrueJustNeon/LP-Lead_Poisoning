@@ -9,8 +9,8 @@ ServerEvents.recipes(event => {
   ], KJ('wooden_mechanism'), [
     event.recipes.createDeploying(t, [t, 'create:andesite_alloy']),
     event.recipes.createDeploying(t, [t, 'kubejs:screwdriver']),
-    event.recipes.create.pressing(t, t) // Press
-    event.recipes.create.pressing(t, t) // Press
+    event.recipes.create.pressing(t, t), // Press
+    event.recipes.create.pressing(t, t), // Press
     event.recipes.createDeploying(t, [t, 'create:andesite_alloy'])
   ]).transitionalItem(t).loops(2)
 })

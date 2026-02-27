@@ -10,7 +10,7 @@ ServerEvents.recipes(event => {
     event.recipes.createDeploying(t, [t, 'create:electron_tube']),
     event.recipes.createDeploying(t, [t, 'kubejs:screwdriver']),
     event.recipes.createDeploying(t, [t, 'mekanism:hdpe_sheet']),
-    event.recipes.createDeploying(t, [t, 'mekanism:hdpe_sheet'])
+    event.recipes.createDeploying(t, [t, 'mekanism:hdpe_sheet']),
 	event.recipes.create.pressing(t, t) // Press
   ]).transitionalItem(t).loops(2)
   
