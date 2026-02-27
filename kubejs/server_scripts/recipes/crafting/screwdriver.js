@@ -4,8 +4,8 @@ ServerEvents.recipes(event => {
     ' A ',
     ' L '
   ], {
-    I: 'minecraft:iron_ingot'
-    A: 'create:andesite_alloy'
+    I: 'minecraft:iron_ingot',
+    A: 'create:andesite_alloy',
     L: 'minecraft:lapis_lazuli'
 }
 })

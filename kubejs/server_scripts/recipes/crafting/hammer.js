@@ -4,7 +4,7 @@ ServerEvents.recipes(event => {
     'III',
     ' S '
   ], {
-    I: 'minecraft:iron_ingot'
+    I: 'minecraft:iron_ingot',
     S: 'minecraft:stick'
 }
 })

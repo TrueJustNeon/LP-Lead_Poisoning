@@ -5,7 +5,7 @@ ServerEvents.recipes(event => {
     'SSS',
     ' S '
   ], {
-	A: 'create:andesite_alloy'
+	A: 'create:andesite_alloy',
     S: 'kubejs:rubber'
   }
 })

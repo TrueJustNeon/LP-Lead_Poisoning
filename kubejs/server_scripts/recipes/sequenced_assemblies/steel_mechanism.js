@@ -7,7 +7,7 @@ ServerEvents.recipes(event => {
  event.recipes.createSequencedAssembly([
     'kubejs:steel_mechanism',
   ], CR('precision_mechanism'), [
-    event.recipes.createDeploying(t, [t, 'create_tank_defenses:steel_sheet'])
+    event.recipes.createDeploying(t, [t, 'create_tank_defenses:steel_sheet']),
     event.recipes.createDeploying(t, [t, 'kubejs:screwdriver']),
     event.recipes.createDeploying(t, [t, 'create:electron_tube']),
     event.recipes.createDeploying(t, [t, 'create_tank_defenses:steel_sheet'])

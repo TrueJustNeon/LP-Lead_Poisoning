@@ -5,8 +5,8 @@ ServerEvents.recipes(event => {
     'SSO',
     'OOI'
   ], {
-    S: 'minecraft:string'
-    O: 'minecraft:oak_slab'
+    S: 'minecraft:string',
+    O: 'minecraft:oak_slab',
     I: 'minecraft:iron_ingot'
   }
 })

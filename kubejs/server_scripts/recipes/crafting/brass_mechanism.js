@@ -5,10 +5,10 @@ ServerEvents.recipes(event => {
     'EAE',
     'BBB'
   ], {
-    H: 'kubejs:hammer'
-    S: 'kubejs:screwdriver'
-    B: 'create:brass_sheet'
-    A: 'kubejs:andesite_mechanism'
+    H: 'kubejs:hammer',
+    S: 'kubejs:screwdriver',
+    B: 'create:brass_sheet',
+    A: 'kubejs:andesite_mechanism',
     E: 'create:electron_tube'
   }
  })

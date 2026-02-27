@@ -13,6 +13,7 @@ mechanism('Andesite') // Tier 3
 mechanism('Brass') // Tier 4
 mechanism('Steel') // Tier 5
 mechanism('HDPE') // Tier 6
-mechanism('Tungsten') // Tier 7
+mechanism('Electromagnetic') // Tier 7
+mechanism('Tungsten') // Tier 8
 
 })
