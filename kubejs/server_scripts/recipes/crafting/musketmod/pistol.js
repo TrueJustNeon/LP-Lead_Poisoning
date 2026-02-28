@@ -9,5 +9,5 @@ ServerEvents.recipes(event => {
 	T: 'minecraft:tripwire_hook',
     I: 'create:iron_sheet',
     F: 'kubejs:flint_mechanism'
-  }
+  })
  })

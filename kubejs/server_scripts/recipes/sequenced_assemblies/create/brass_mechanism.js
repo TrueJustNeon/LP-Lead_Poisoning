@@ -12,5 +12,4 @@ ServerEvents.recipes(event => {
     event.recipes.createDeploying(t, [t, 'create:electron_tube']),
     event.recipes.createDeploying(t, [t, 'create:brass_sheet'])
   ]).transitionalItem(t).loops(1)
-  
 })

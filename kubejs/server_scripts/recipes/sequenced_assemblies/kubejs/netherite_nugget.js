@@ -7,10 +7,10 @@ ServerEvents.recipes(event => {
  event.recipes.createSequencedAssembly([
   // Outputs:
       [
-        CreateItem.of('kubejs:netherite_nugget', 0.0005), // Main output, will appear in JEI as the result
-        CreateItem.of('minecraft:netherrack', 0.008), // Rest of these items will be considered Random Salvage
-        CreateItem.of('minecraft:nether_brick', 0.008),
-        CreateItem.of('2x minecraft:gold_nugget', 0.002)
+        Item.of('kubejs:netherite_nugget').withChance(4), // Main output, will appear in JEI as the result
+        Item.of('minecraft:netherrack').withChance(10), // Rest of these items will be considered Random Salvage
+        Item.of('minecraft:nether_brick').withChance(5),
+        Item.of('minecraft:gold_nugget').withChance(5)
       ],
   ], MC('netherrack'), [ // Base
     event.recipes.create.filling(t, [t, Fluid.of('minecraft:lava', 100)]),
@@ -18,5 +18,5 @@ ServerEvents.recipes(event => {
     event.recipes.create.pressing(t, t), // Press
     event.recipes.create.pressing(t, t), // Press
     event.recipes.create.filling(t, [t, Fluid.of('minecraft:lava', 100)])
-  ]).transitionalItem(t).loops(10)
+  ]).transitionalItem(t).loops(5)
 })

@@ -11,5 +11,5 @@ ServerEvents.recipes(event => {
     W: 'kubejs:wooden_mechanism',
     G: 'minecraft:gold_ingot',
     A: 'create:andesite_alloy'
-}
+})
 })

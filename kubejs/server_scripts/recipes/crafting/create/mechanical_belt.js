@@ -6,5 +6,5 @@ ServerEvents.recipes(event => {
     'RRR'
   ], {
 	R: 'kubejs:rubber'
-  }
+  })
  })

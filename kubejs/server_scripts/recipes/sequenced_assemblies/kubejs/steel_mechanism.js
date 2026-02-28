@@ -3,7 +3,7 @@ let KJ = (id, x) => MOD("kubejs", id, x)
 let CR = (id, x) => MOD("create", id, x)
 
 ServerEvents.recipes(event => {
-  t = KS('incomplete_steel_mechanism')
+  t = KJ('incomplete_steel_mechanism')
  event.recipes.createSequencedAssembly([
     'kubejs:steel_mechanism',
   ], CR('precision_mechanism'), [

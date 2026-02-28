@@ -8,5 +8,5 @@ ServerEvents.recipes(event => {
     S: 'minecraft:string',
     O: 'minecraft:oak_slab',
     I: 'minecraft:iron_ingot'
-  }
+  })
 })

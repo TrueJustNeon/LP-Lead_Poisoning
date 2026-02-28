@@ -10,5 +10,5 @@ ServerEvents.recipes(event => {
 	T: 'minecraft:tripwire_hook',
     I: 'create:iron_sheet',
     W: 'kubejs:wooden_mechanism'
-  }
+  })
  })

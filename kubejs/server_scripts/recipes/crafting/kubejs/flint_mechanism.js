@@ -10,5 +10,5 @@ ServerEvents.recipes(event => {
     F: 'minecraft:flint',
     W: 'kubejs:wooden_mechanism',
     I: 'minecraft:iron_ingot'
-}
+})
 })
