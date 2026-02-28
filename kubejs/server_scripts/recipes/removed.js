@@ -10,6 +10,10 @@ ServerEvents.recipes(event => {
 	    event.remove({id: 'create:crafting/kinetics/brass_hand'})
 	    event.remove({id: 'create:crafting/kinetics/belt_connector'})
 	    event.remove({id: 'create:crafting/kinetics/deployer'})
+	    event.remove({id: 'musketmod:musket'})
+	    event.remove({id: 'musketmod:blunderbuss'})
+	    event.remove({id: 'musketmod:cartridge'})
+	    event.remove({id: 'musketmod:pistol'})
 		event.remove({ id: 'minecraft:crossbow' })
 	// Smelting
 	// Cooking
