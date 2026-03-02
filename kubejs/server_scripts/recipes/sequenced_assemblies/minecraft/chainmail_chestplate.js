@@ -1,0 +1,19 @@
+let MOD = (domain, id, x) => (x ? `${x}x ` : "") + (id.startsWith('#') ? '#' : "") + domain + ":" + id.replace('#', '')
+let KJ = (id, x) => MOD("kubejs", id, x)
+let CR = (id, x) => MOD("create", id, x)
+let MC = (id, x) => MOD("minecraft", id, x)
+
+ServerEvents.recipes(event => {
+  t = KJ('incomplete_chainmail_chestplate')
+ event.recipes.createSequencedAssembly([
+    'minecraft:chainmail_chestplate', // Output
+  ], MC('leather_chestplate'), [
+    event.recipes.createDeploying(t, [t, 'create_tank_defenses:steel_sheet']), // Steel sheet
+    event.recipes.create.filling(t, [t, Fluid.of('minecraft:lava', 50)]), // Lava
+    event.recipes.create.pressing(t, t), // Press
+    event.recipes.createDeploying(t, [t, 'minecraft:chain']), // Chain
+    event.recipes.createDeploying(t, [t, 'minecraft:chain']), // Chain
+    event.recipes.create.filling(t, [t, Fluid.of('minecraft:lava', 50)]), // Lava
+    event.recipes.create.pressing(t, t), // Press
+  ]).transitionalItem(t).loops(5) // Loop x5
+})
