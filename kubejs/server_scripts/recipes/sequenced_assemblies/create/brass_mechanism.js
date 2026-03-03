@@ -4,7 +4,7 @@ let CR = (id, x) => MOD("create", id, x)
 
 ServerEvents.recipes(event => {
   const t = CR('incomplete_precision_mechanism')
- event.recipes.createSequencedAssembly([
+ event.recipes.createSequencedAssembly(
  // Outputs:
       [
         Item.of('create:precision_mechanism').withChance(130), // Main output, will appear in JEI as the result
