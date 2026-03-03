@@ -33,6 +33,8 @@ ServerEvents.recipes(event => {
 		event.remove({ id: 'minecraft:crossbow' })
 	// Smelting
 	// Cooking
+	// Sequenced
+		    event.remove({id: 'tfmg:sequenced_assemblies/steel_mechanism'})
 	// Campfire
 	// Blasting
 	// Pressing
