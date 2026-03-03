@@ -34,7 +34,7 @@ ServerEvents.recipes(event => {
 	// Smelting
 	// Cooking
 	// Sequenced
-		    event.remove({id: 'tfmg:sequenced_assemblies/steel_mechanism'})
+		    event.remove({id: 'tfmg:sequenced_assembly/steel_mechanism'})
 	// Campfire
 	// Blasting
 	// Pressing
