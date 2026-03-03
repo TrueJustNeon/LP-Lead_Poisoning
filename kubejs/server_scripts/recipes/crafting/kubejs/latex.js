@@ -1,6 +1,6 @@
 // For items.
 ServerEvents.recipes(event => {
-  event.shaped('kubejs:latex', [
+  event.shaped('kubejs:resin', [
     'SSS',
     'SSS',
     'SSS'
