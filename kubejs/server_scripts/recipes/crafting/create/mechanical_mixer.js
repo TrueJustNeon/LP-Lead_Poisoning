@@ -6,7 +6,7 @@ ServerEvents.recipes(event => {
     ' W '
   ], {
 	A: 'kubejs:andesite_mechanism',
-    C: 'create:cog',
+    C: 'create:cogwheel',
 	W: 'create:whisk'
   })
 })
