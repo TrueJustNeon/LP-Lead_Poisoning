@@ -4,7 +4,7 @@ let CR = (id, x) => MOD("create", id, x)
 let MC = (id, x) => MOD("minecraft", id, x)
 
 ServerEvents.recipes(event => {
-  t = KJ('incomplete_chainmail_chestplate')
+ const t = KJ('incomplete_chainmail_chestplate')
  event.recipes.createSequencedAssembly([
     Item.of('minecraft:chainmail_chestplate'), // Output
   ], MC('leather_chestplate'), [
