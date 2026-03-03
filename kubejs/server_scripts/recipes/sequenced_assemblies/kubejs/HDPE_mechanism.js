@@ -13,7 +13,7 @@ ServerEvents.recipes(event => {
         Item.of('create:cogwheel').withChance(5),
         Item.of('create:shaft').withChance(2),
         Item.of('create:crushed_gold_ore').withChance(2),
-        Item.of('2x minecraft:gold_nugget').withChance(2),
+        Item.of('minecraft:gold_nugget').withChance(2),
         'minecraft:iron_ingot',
         'minecraft:clock'
   ], CR('precision_mechanism'), [ // Base
