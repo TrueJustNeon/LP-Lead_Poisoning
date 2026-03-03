@@ -4,9 +4,9 @@ let CR = (id, x) => MOD("create", id, x)
 let MC = (id, x) => MOD("minecraft", id, x)
 
 ServerEvents.recipes(event => {
-  t = KJ('incomplete_chainmail_boots')
+  const t = KJ('incomplete_chainmail_boots')
  event.recipes.createSequencedAssembly([
-    'minecraft:chainmail_boots', // Output
+    Item.of('minecraft:chainmail_boots'), // Output
   ], MC('leather_boots'), [
     event.recipes.createDeploying(t, [t, 'create_tank_defenses:steel_sheet']), // Steel sheet
     event.recipes.create.filling(t, [t, Fluid.of('minecraft:lava', 50)]), // Lava
