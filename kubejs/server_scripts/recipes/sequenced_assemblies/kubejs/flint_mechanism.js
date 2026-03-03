@@ -6,7 +6,7 @@ let MC = (id, x) => MOD("minecraft", id, x)
 ServerEvents.recipes(event => {
   const t = KJ('incomplete_flint_mechanism')
  event.recipes.createSequencedAssembly([
-    item.of('kubejs:flint_mechanism'), // Output
+    Item.of('kubejs:flint_mechanism'), // Output
   ], KJ('wooden_mechanism'), [
     event.recipes.createDeploying(t, [t, 'minecraft:iron_nugget']),
     event.recipes.createDeploying(t, [t, 'minecraft:flint']),
