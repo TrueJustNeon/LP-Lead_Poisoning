@@ -1,7 +1,7 @@
 StartupEvents.registry('item', event => {
 	// Main Items
     event.create('rubber').displayName('Rubber')
-    event.create('latex').displayName('Latex')
+    event.create('resin').displayName('Resin')
     event.create('sap').displayName('Sap')
     event.create('netherite_nugget').displayName('Netherite Nugget')
 	// Extra not to mention stuff, only needed for assembly
