@@ -4,7 +4,7 @@ let CR = (id, x) => MOD("create", id, x)
 
 ServerEvents.recipes(event => {
   const t = KJ('incomplete_hdpe_mechanism')
- event.recipes.createSequencedAssembly([
+ event.recipes.createSequencedAssembly(
     // Outputs:
       [
         Item.of('kubejs:hdpe_mechanism').withChance(130), // Main output, will appear in JEI as the result
