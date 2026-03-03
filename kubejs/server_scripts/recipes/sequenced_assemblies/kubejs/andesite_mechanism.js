@@ -3,9 +3,9 @@ let KJ = (id, x) => MOD("kubejs", id, x)
 let CR = (id, x) => MOD("create", id, x)
 
 ServerEvents.recipes(event => {
-  t = KJ('incomplete_andesite_mechanism')
+  const t = KJ('incomplete_andesite_mechanism')
  event.recipes.createSequencedAssembly([
-    'kubejs:andesite_mechanism', // Output
+    Item.of('kubejs:andesite_mechanism') // Main output, will appear in JEI as the result
   ], KJ('wooden_mechanism'), [
     event.recipes.createDeploying(t, [t, 'create:andesite_alloy']),
     event.recipes.createDeploying(t, [t, 'kubejs:screwdriver']),

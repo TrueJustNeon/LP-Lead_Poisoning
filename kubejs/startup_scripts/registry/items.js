@@ -1,11 +1,15 @@
 StartupEvents.registry('item', event => {
+	// Main Items
     event.create('rubber').displayName('Rubber')
     event.create('latex').displayName('Latex')
     event.create('sap').displayName('Sap')
     event.create('netherite_nugget').displayName('Netherite Nugget')
-    event.create('nether_scrap').displayName('Nether Scrap')
+	// Extra not to mention stuff, only needed for assembly
+    event.create('nether_scrap', 'create:sequenced_assembly').displayName('Nether Scrap')
     event.create('incomplete_chainmail_helmet', 'create:sequenced_assembly').displayName('Incomplete Chainmail Helmet')
-    event.create('incomplete_chainmail_chestplate' 'create:sequenced_assembly').displayName('Incomplete Chainmail Chestplate')
+    event.create('incomplete_chainmail_chestplate', 'create:sequenced_assembly').displayName('Incomplete Chainmail Chestplate')
     event.create('incomplete_chainmail_leggings', 'create:sequenced_assembly').displayName('Incomplete Chainmail Leggings')
     event.create('incomplete_chainmail_boots', 'create:sequenced_assembly').displayName('Incomplete Chainmail Boots')
+	// Battery
+	event.create('bluespace_battery').displayName('Bluespace Battery').glow(true).tooltip('Experimental')
 })

@@ -3,7 +3,7 @@ let KJ = (id, x) => MOD("kubejs", id, x)
 let CR = (id, x) => MOD("create", id, x)
 
 ServerEvents.recipes(event => {
-  t = KJ('nether_scrap')
+  const t = KJ('nether_scrap')
  event.recipes.createSequencedAssembly([
   // Outputs:
       [
@@ -11,7 +11,6 @@ ServerEvents.recipes(event => {
         Item.of('minecraft:netherrack').withChance(10), // Rest of these items will be considered Random Salvage
         Item.of('minecraft:nether_brick').withChance(5),
         Item.of('minecraft:gold_nugget').withChance(5)
-      ],
   ], MC('netherrack'), [ // Base
     event.recipes.create.filling(t, [t, Fluid.of('minecraft:lava', 100)]),
     event.recipes.create.filling(t, [t, Fluid.of('minecraft:lava', 100)]),
