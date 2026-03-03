@@ -2,12 +2,12 @@
 ServerEvents.recipes(event => {
   event.shaped('create:millstone', [
     ' A ',
-    'IKI',
+    'CKC',
     ' S '
   ], {
 	A: 'kubejs:andesite_mechanism',
-    C: 'create:cog',
+    C: 'create:cogwheel',
     K: 'create:andesite_casing',
-	S: '#minecraft:stone'
+	S: '#forge:stone'
   })
 })
