@@ -1,6 +1,6 @@
 // Assembly, smithing, etc goes here.
 ServerEvents.recipes(event => {
-  event.shaped('kubejs:flint_mechanism', [
+  event.shaped('kubejs:andesite_mechanism', [
     'HCS',
     'CWC',
     'GAG'
