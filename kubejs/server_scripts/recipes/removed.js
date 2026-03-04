@@ -32,6 +32,7 @@ ServerEvents.recipes(event => {
 // ## Minecraft
 		event.remove({ id: 'minecraft:crossbow' })
 	// Smelting
+		//	event.remove({id: 'mekanism:processing/lead/dirty_dust/from_clump'})
 	// Cooking
 	// Sequenced
 		    event.remove({id: 'tfmg:sequenced_assembly/steel_mechanism'})
@@ -39,3 +40,4 @@ ServerEvents.recipes(event => {
 	// Blasting
 	// Pressing
 })
+
