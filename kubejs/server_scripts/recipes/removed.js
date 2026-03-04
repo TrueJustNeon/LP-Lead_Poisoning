@@ -13,6 +13,7 @@ ServerEvents.recipes(event => {
 	    event.remove({id: 'create:crafting/kinetics/belt_connector'})
 	    event.remove({id: 'create:crafting/kinetics/deployer'})
 	    event.remove({id: 'create:crafting/kinetics/mechanical_press'})
+	    event.remove({id: 'create:splashing/sand'})
 	    event.remove({id: 'create:crafting/kinetics/mechanical_saw'})
 	    event.remove({id: 'create:crafting/kinetics/mechanical_drill'})
 	    event.remove({id: 'create:crafting/kinetics/mechanical_mixer'})
@@ -34,6 +35,9 @@ ServerEvents.recipes(event => {
 	// Smelting
 		event.remove({id: 'superbwarfare:compat/optional/lead_ingot_blasting_from_powder'})
 		event.remove({id: 'mekanism:processing/lead/ingot/from_dust_smelting'})
+		event.remove({id: 'mekanism:processing/lead/ingot/from_dust_blasting'})
+		event.remove({id: 'superbwarfare:compat/optional/lead_ingot_smelting_from_powder'})
+		event.remove({id: 'mekanism:processing/lead/dust/from_dirty_dust'})
 	// Cooking
 	// Sequenced
 		    event.remove({id: 'tfmg:sequenced_assembly/steel_mechanism'})

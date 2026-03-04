@@ -13,5 +13,9 @@ StartupEvents.registry('item', event => {
     event.create('incomplete_chainmail_leggings', 'create:sequenced_assembly').displayName('Incomplete Chainmail Leggings')
     event.create('incomplete_chainmail_boots', 'create:sequenced_assembly').displayName('Incomplete Chainmail Boots')
 	// Battery
-	event.create('bluespace_battery').displayName('Bluespace Battery').glow(true).tooltip('Experimental').modelJson({parent: 'kubejs:item/bluespace_battery'}).textureJson({layer0: 'kubejs:item/bluespace_battery'})
+event.create('bluespace_battery')
+  .displayName('Bluespace Battery')
+  .glow(true)
+  .tooltip('Experimental')
+  .model('kubejs:item/bluespace_battery')
 })
