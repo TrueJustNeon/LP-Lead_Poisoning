@@ -6,7 +6,7 @@ let MC = (id, x) => MOD("minecraft", id, x)
 ServerEvents.recipes(event => {
   const t = KJ('incomplete_copper_mechanism')
  event.recipes.createSequencedAssembly([
-    Item.of('kubejs:copper_mechanism').WithChance(50), // Output
+    Item.of('kubejs:copper_mechanism').withChance(50), // Output
   ], KJ('andesite_mechanism'), [
     event.recipes.createDeploying(t, [t, 'kubejs:rubber']),
     event.recipes.createDeploying(t, [t, 'kubejs:screwdriver']),

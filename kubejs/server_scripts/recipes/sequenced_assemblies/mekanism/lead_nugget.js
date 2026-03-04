@@ -9,7 +9,7 @@ ServerEvents.recipes(event => {
  event.recipes.createSequencedAssembly(
   // Outputs:
       [
-        Item.of('mekanism:lead_nugget').withChance(25), // Main output, will appear in JEI as the result
+        Item.of('mekanism:nugget_lead').withChance(25), // Main output, will appear in JEI as the result
         Item.of('minecraft:iron_nugget').withChance(7), // Rest of these items will be considered Random Salvage
         Item.of('minecraft:bucket').withChance(5),
         Item.of('minecraft:bread').withChance(2)

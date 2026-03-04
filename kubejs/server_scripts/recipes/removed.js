@@ -32,7 +32,8 @@ ServerEvents.recipes(event => {
 // ## Minecraft
 		event.remove({ id: 'minecraft:crossbow' })
 	// Smelting
-		//	event.remove({id: 'mekanism:processing/lead/dirty_dust/from_clump'})
+		event.remove({id: 'superbwarfare:compat/optional/lead_ingot_blasting_from_powder'})
+		event.remove({id: 'mekanism:processing/lead/ingot/from_dust_smelting'})
 	// Cooking
 	// Sequenced
 		    event.remove({id: 'tfmg:sequenced_assembly/steel_mechanism'})

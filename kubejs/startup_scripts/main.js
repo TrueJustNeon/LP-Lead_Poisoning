@@ -17,7 +17,7 @@ StartupEvents.registry('creative_mode_tab', event => {
 	    'kubejs:incomplete_wooden_mechanism',
 		'kubejs:incomplete_flint_mechanism',
 		'kubejs:incomplete_andesite_mechanism',
-		'create:incomplete_copper_mechanism',
+		'kubejs:incomplete_copper_mechanism',
 		'create:incomplete_precision_mechanism',
 		'kubejs:incomplete_steel_mechanism',
 		'kubejs:incomplete_hdpe_mechanism',

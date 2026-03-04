@@ -4,7 +4,7 @@ let CR = (id, x) => MOD("create", id, x)
 
 ServerEvents.recipes(event => {
   const t = KJ('incomplete_electromagnetic_mechanism') // Transitional
- event.recipes.createSequencedAssembly([
+ event.recipes.createSequencedAssembly(
  // Outputs:
       [
         Item.of('kubejs:electromagnetic_mechanism').withChance(130), // Main output, will appear in JEI as the result

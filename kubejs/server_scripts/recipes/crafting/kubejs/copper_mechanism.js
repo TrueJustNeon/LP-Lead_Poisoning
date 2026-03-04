@@ -1,6 +1,6 @@
 // Assembly, smithing, etc goes here.
 ServerEvents.recipes(event => {
-  event.shaped('kubejs:andesite_mechanism', [
+  event.shaped('kubejs:copper_mechanism', [
     'HRS',
     'RWR',
     'CCC'
