@@ -17,5 +17,8 @@ And we can no longer unmake it.
 Seek for them.
 Grab your gun.
 and..
-P A I N T  T H E  W O R L D  R E D .
+P A I N T
+T H E
+W O R L D
+R E D .
 
