@@ -8,7 +8,7 @@ ItemEvents.toolTierRegistry(event => {
 StartupEvents.registry('item', event => {
     let tool = (name) => {
         let id = name.toLowerCase()
-        event.create(id, 'sword').tier('tool').texture("kubejs:item/" + id).displayName(name)
+        event.create(id, 'sword').tier('tool').displayName(name)
     }
 tool('Screwdriver')
 tool('Hammer')
